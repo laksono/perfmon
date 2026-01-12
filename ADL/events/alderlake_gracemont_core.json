@@ -1,9 +1,9 @@
 {
   "Header": {
     "Copyright": "Copyright (c) 2001 - 2025 Intel Corporation. All rights reserved.",
-    "Info": "Performance Monitoring Events for 12th and 13th Generation Intel(R) Core(TM) Processor - V1.30",
-    "DatePublished": "04/01/2025",
-    "Version": "1.30",
+    "Info": "Performance Monitoring Events for 12th and 13th Generation Intel(R) Core(TM) Processor - V1.36",
+    "DatePublished": "11/17/2025",
+    "Version": "1.36",
     "Legend": ""
   },
   "Events": [
@@ -61,7 +61,7 @@
       "EventCode": "0x00",
       "UMask": "0x02",
       "EventName": "CPU_CLK_UNHALTED.THREAD",
-      "BriefDescription": "Counts the number of unhalted core clock cycles. (Fixed event)",
+      "BriefDescription": "Fixed Counter: Counts the number of unhalted core clock cycles. [This event is alias to CPU_CLK_UNHALTED.CORE]",
       "PublicDescription": "Counts the number of core cycles while the core is not in a halt state.  The core enters the halt state when it is running the HLT instruction. The core frequency may change from time to time. For this reason this event may have a changing ratio with regards to time.  This event uses fixed counter 1.",
       "Counter": "Fixed counter 1",
       "PEBScounters": "33",
@@ -129,7 +129,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -154,7 +154,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -179,7 +179,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -861,7 +861,7 @@
       "EventCode": "0x3c",
       "UMask": "0x00",
       "EventName": "CPU_CLK_UNHALTED.THREAD_P",
-      "BriefDescription": "Counts the number of unhalted core clock cycles.",
+      "BriefDescription": "Counts the number of unhalted core clock cycles. [This event is alias to CPU_CLK_UNHALTED.CORE_P]",
       "PublicDescription": "Counts the number of core cycles while the core is not in a halt state.  The core enters the halt state when it is running the HLT instruction. The core frequency may change from time to time. For this reason this event may have a changing ratio with regards to time. This event uses a programmable general purpose performance counter.",
       "Counter": "0,1,2,3,4,5",
       "PEBScounters": "0,1,2,3,4,5",
@@ -2579,7 +2579,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2604,7 +2604,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2629,7 +2629,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2654,7 +2654,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2679,7 +2679,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2704,7 +2704,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2729,7 +2729,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2929,7 +2929,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2954,7 +2954,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -2979,7 +2979,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3004,7 +3004,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3029,7 +3029,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3054,7 +3054,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3079,7 +3079,32 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
+      "Speculative": "0"
+    },
+    {
+      "EventCode": "0xc4",
+      "UMask": "0xef",
+      "EventName": "BR_INST_RETIRED.INDIRECT_JMP",
+      "BriefDescription": "Counts the number of near indirect JMP branch instructions retired.",
+      "PublicDescription": "Counts the number of near indirect JMP branch instructions retired.",
+      "Counter": "0,1,2,3,4,5",
+      "PEBScounters": "0,1,2,3,4,5",
+      "SampleAfterValue": "200003",
+      "MSRIndex": "0x00",
+      "MSRValue": "0x00",
+      "Precise": "1",
+      "CollectPEBSRecord": "2",
+      "TakenAlone": "0",
+      "CounterMask": "0",
+      "Invert": "0",
+      "EdgeDetect": "0",
+      "Data_LA": "0",
+      "L1_Hit_Indication": "0",
+      "Errata": "null",
+      "Offcore": "0",
+      "Deprecated": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3104,7 +3129,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3129,7 +3154,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3154,7 +3179,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3179,7 +3204,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3204,7 +3229,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3229,7 +3254,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3254,7 +3279,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3279,7 +3304,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3304,7 +3329,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3329,7 +3354,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3354,7 +3379,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3379,7 +3404,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3404,7 +3429,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3429,7 +3454,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3454,7 +3479,32 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
+      "Speculative": "0"
+    },
+    {
+      "EventCode": "0xc5",
+      "UMask": "0xef",
+      "EventName": "BR_MISP_RETIRED.INDIRECT_JMP",
+      "BriefDescription": "Counts the number of mispredicted near indirect JMP branch instructions retired.",
+      "PublicDescription": "Counts the number of mispredicted near indirect JMP branch instructions retired.",
+      "Counter": "0,1,2,3,4,5",
+      "PEBScounters": "0,1,2,3,4,5",
+      "SampleAfterValue": "200003",
+      "MSRIndex": "0x00",
+      "MSRValue": "0x00",
+      "Precise": "1",
+      "CollectPEBSRecord": "2",
+      "TakenAlone": "0",
+      "CounterMask": "0",
+      "Invert": "0",
+      "EdgeDetect": "0",
+      "Data_LA": "0",
+      "L1_Hit_Indication": "0",
+      "Errata": "null",
+      "Offcore": "0",
+      "Deprecated": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3479,7 +3529,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3504,7 +3554,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3529,7 +3579,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3554,7 +3604,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3579,7 +3629,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -3686,8 +3736,8 @@
       "EventCode": "0xcd",
       "UMask": "0x03",
       "EventName": "ARITH.DIV_OCCUPANCY",
-      "BriefDescription": "Counts the number of active floating point and integer dividers per cycle.",
-      "PublicDescription": "Counts the number of active floating point and integer dividers per cycle.",
+      "BriefDescription": "This event is deprecated.",
+      "PublicDescription": "This event is deprecated.",
       "Counter": "0,1,2,3,4,5",
       "PEBScounters": "0,1,2,3,4,5",
       "SampleAfterValue": "1000003",
@@ -3703,7 +3753,7 @@
       "L1_Hit_Indication": "0",
       "Errata": "null",
       "Offcore": "0",
-      "Deprecated": "0",
+      "Deprecated": "1",
       "PDISTCounter": "NA",
       "Speculative": "1"
     },
@@ -3761,8 +3811,8 @@
       "EventCode": "0xcd",
       "UMask": "0x0c",
       "EventName": "ARITH.DIV_UOPS",
-      "BriefDescription": "Counts the number of floating point and integer divider uops executed per cycle.",
-      "PublicDescription": "Counts the number of floating point and integer divider uops executed per cycle.",
+      "BriefDescription": "This event is deprecated.",
+      "PublicDescription": "This event is deprecated.",
       "Counter": "0,1,2,3,4,5",
       "PEBScounters": "0,1,2,3,4,5",
       "SampleAfterValue": "1000003",
@@ -3778,7 +3828,7 @@
       "L1_Hit_Indication": "0",
       "Errata": "null",
       "Offcore": "0",
-      "Deprecated": "0",
+      "Deprecated": "1",
       "PDISTCounter": "NA",
       "Speculative": "1"
     },
@@ -3786,15 +3836,15 @@
       "EventCode": "0xd0",
       "UMask": "0x05",
       "EventName": "MEM_UOPS_RETIRED.LOAD_LATENCY_GT_4",
-      "BriefDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 4 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled.",
-      "PublicDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 4 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled. If a PEBS record is generated, will populate the PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 4. Only counts with PEBS enabled.",
+      "PublicDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 4. Only counts with PEBS enabled.",
       "Counter": "0,1",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x3F6",
       "MSRValue": "0x4",
       "Precise": "1",
-      "CollectPEBSRecord": "2",
+      "CollectPEBSRecord": "3",
       "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
@@ -3804,22 +3854,22 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
       "EventCode": "0xd0",
       "UMask": "0x05",
       "EventName": "MEM_UOPS_RETIRED.LOAD_LATENCY_GT_128",
-      "BriefDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 128 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled.",
-      "PublicDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 128 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled. If a PEBS record is generated, will populate the PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 128. Only counts with PEBS enabled.",
+      "PublicDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 128. Only counts with PEBS enabled.",
       "Counter": "0,1",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x3F6",
       "MSRValue": "0x80",
       "Precise": "1",
-      "CollectPEBSRecord": "2",
+      "CollectPEBSRecord": "3",
       "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
@@ -3829,22 +3879,22 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
       "EventCode": "0xd0",
       "UMask": "0x05",
       "EventName": "MEM_UOPS_RETIRED.LOAD_LATENCY_GT_64",
-      "BriefDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 64 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled.",
-      "PublicDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 64 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled. If a PEBS record is generated, will populate the PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 64. Only counts with PEBS enabled.",
+      "PublicDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 64. Only counts with PEBS enabled.",
       "Counter": "0,1",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x3F6",
       "MSRValue": "0x40",
       "Precise": "1",
-      "CollectPEBSRecord": "2",
+      "CollectPEBSRecord": "3",
       "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
@@ -3854,22 +3904,22 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
       "EventCode": "0xd0",
       "UMask": "0x05",
       "EventName": "MEM_UOPS_RETIRED.LOAD_LATENCY_GT_32",
-      "BriefDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 32 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled.",
-      "PublicDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 32 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled. If a PEBS record is generated, will populate the PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 32. Only counts with PEBS enabled.",
+      "PublicDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 32. Only counts with PEBS enabled.",
       "Counter": "0,1",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x3F6",
       "MSRValue": "0x20",
       "Precise": "1",
-      "CollectPEBSRecord": "2",
+      "CollectPEBSRecord": "3",
       "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
@@ -3879,22 +3929,22 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
       "EventCode": "0xd0",
       "UMask": "0x05",
       "EventName": "MEM_UOPS_RETIRED.LOAD_LATENCY_GT_16",
-      "BriefDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 16 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled.",
-      "PublicDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 16 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled. If a PEBS record is generated, will populate the PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 16. Only counts with PEBS enabled.",
+      "PublicDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 16. Only counts with PEBS enabled.",
       "Counter": "0,1",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x3F6",
       "MSRValue": "0x10",
       "Precise": "1",
-      "CollectPEBSRecord": "2",
+      "CollectPEBSRecord": "3",
       "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
@@ -3904,22 +3954,22 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
       "EventCode": "0xd0",
       "UMask": "0x05",
       "EventName": "MEM_UOPS_RETIRED.LOAD_LATENCY_GT_8",
-      "BriefDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 8 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled.",
-      "PublicDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 8 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled. If a PEBS record is generated, will populate the PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 8. Only counts with PEBS enabled.",
+      "PublicDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 8. Only counts with PEBS enabled.",
       "Counter": "0,1",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x3F6",
       "MSRValue": "0x8",
       "Precise": "1",
-      "CollectPEBSRecord": "2",
+      "CollectPEBSRecord": "3",
       "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
@@ -3929,22 +3979,22 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
       "EventCode": "0xd0",
       "UMask": "0x05",
       "EventName": "MEM_UOPS_RETIRED.LOAD_LATENCY_GT_512",
-      "BriefDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 512 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled.",
-      "PublicDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 512 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled. If a PEBS record is generated, will populate the PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 512. Only counts with PEBS enabled.",
+      "PublicDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 512. Only counts with PEBS enabled.",
       "Counter": "0,1",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x3F6",
       "MSRValue": "0x200",
       "Precise": "1",
-      "CollectPEBSRecord": "2",
+      "CollectPEBSRecord": "3",
       "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
@@ -3954,22 +4004,22 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
       "EventCode": "0xd0",
       "UMask": "0x05",
       "EventName": "MEM_UOPS_RETIRED.LOAD_LATENCY_GT_256",
-      "BriefDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 256 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled.",
-      "PublicDescription": "Counts the number of tagged loads with an instruction latency that exceeds or equals the threshold of 256 cycles as defined in MEC_CR_PEBS_LD_LAT_THRESHOLD (3F6H). Only counts with PEBS enabled. If a PEBS record is generated, will populate the PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 256. Only counts with PEBS enabled.",
+      "PublicDescription": "Counts the number of tagged load uops retired that exceed the latency threshold of 256. Only counts with PEBS enabled.",
       "Counter": "0,1",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x3F6",
       "MSRValue": "0x100",
       "Precise": "1",
-      "CollectPEBSRecord": "2",
+      "CollectPEBSRecord": "3",
       "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
@@ -3979,15 +4029,15 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
       "EventCode": "0xd0",
       "UMask": "0x06",
       "EventName": "MEM_UOPS_RETIRED.STORE_LATENCY",
-      "BriefDescription": "Counts the number of stores uops retired. Counts with or without PEBS enabled.",
-      "PublicDescription": "Counts the number of stores uops retired. Counts with or without PEBS enabled. If PEBS is enabled and a PEBS record is generated, will populate PEBS Latency and PEBS Data Source fields accordingly.",
+      "BriefDescription": "Counts the number of stores uops retired.",
+      "PublicDescription": "Counts the number of stores uops retired.",
       "Counter": "0,1,2,3,4,5",
       "PEBScounters": "0,1,2,3,4,5",
       "SampleAfterValue": "1000003",
@@ -3995,7 +4045,7 @@
       "MSRValue": "0x00",
       "Precise": "1",
       "CollectPEBSRecord": "2",
-      "TakenAlone": "0",
+      "TakenAlone": "1",
       "CounterMask": "0",
       "Invert": "0",
       "EdgeDetect": "0",
@@ -4004,7 +4054,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4029,7 +4079,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4054,7 +4104,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4079,7 +4129,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4104,7 +4154,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4129,7 +4179,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4154,7 +4204,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4179,7 +4229,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4204,7 +4254,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4229,7 +4279,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4254,7 +4304,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4279,7 +4329,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4304,7 +4354,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4329,7 +4379,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4354,7 +4404,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4379,7 +4429,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4404,7 +4454,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4429,7 +4479,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4454,7 +4504,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4479,8 +4529,108 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
+    },
+    {
+      "EventCode": "0xe0",
+      "UMask": "0x02",
+      "EventName": "MISC_RETIRED1.LFENCE",
+      "BriefDescription": "Counts the number of LFENCE instructions retired.",
+      "PublicDescription": "Counts the number of LFENCE instructions retired.",
+      "Counter": "0,1,2,3,4,5",
+      "PEBScounters": "0,1,2,3,4,5",
+      "SampleAfterValue": "1000003",
+      "MSRIndex": "0x00",
+      "MSRValue": "0x00",
+      "Precise": "0",
+      "CollectPEBSRecord": "2",
+      "TakenAlone": "0",
+      "CounterMask": "0",
+      "Invert": "0",
+      "EdgeDetect": "0",
+      "Data_LA": "0",
+      "L1_Hit_Indication": "0",
+      "Errata": "null",
+      "Offcore": "0",
+      "Deprecated": "0",
+      "PDISTCounter": "NA",
+      "Speculative": "1"
+    },
+    {
+      "EventCode": "0xe0",
+      "UMask": "0xff",
+      "EventName": "MISC_RETIRED1.CL_INST",
+      "BriefDescription": "Counts the number of CLFLUSH, CLWB, and CLDEMOTE instructions retired.",
+      "PublicDescription": "Counts the number of CLFLUSH, CLWB, and CLDEMOTE instructions retired.",
+      "Counter": "0,1,2,3,4,5",
+      "PEBScounters": "0,1,2,3,4,5",
+      "SampleAfterValue": "1000003",
+      "MSRIndex": "0x00",
+      "MSRValue": "0x00",
+      "Precise": "0",
+      "CollectPEBSRecord": "2",
+      "TakenAlone": "0",
+      "CounterMask": "0",
+      "Invert": "0",
+      "EdgeDetect": "0",
+      "Data_LA": "0",
+      "L1_Hit_Indication": "0",
+      "Errata": "null",
+      "Offcore": "0",
+      "Deprecated": "0",
+      "PDISTCounter": "NA",
+      "Speculative": "1"
+    },
+    {
+      "EventCode": "0xe1",
+      "UMask": "0x10",
+      "EventName": "MISC_RETIRED2.KEYLOCKER_ACCESS",
+      "BriefDescription": "Counts the number of accesses to KeyLocker cache.",
+      "PublicDescription": "Counts the number of accesses to KeyLocker cache.",
+      "Counter": "0,1,2,3,4,5",
+      "PEBScounters": "0,1,2,3,4,5",
+      "SampleAfterValue": "1000003",
+      "MSRIndex": "0x00",
+      "MSRValue": "0x00",
+      "Precise": "0",
+      "CollectPEBSRecord": "2",
+      "TakenAlone": "0",
+      "CounterMask": "0",
+      "Invert": "0",
+      "EdgeDetect": "0",
+      "Data_LA": "0",
+      "L1_Hit_Indication": "0",
+      "Errata": "null",
+      "Offcore": "0",
+      "Deprecated": "0",
+      "PDISTCounter": "NA",
+      "Speculative": "1"
+    },
+    {
+      "EventCode": "0xe1",
+      "UMask": "0x11",
+      "EventName": "MISC_RETIRED2.KEYLOCKER_MISS",
+      "BriefDescription": "Counts the number of misses to KeyLocker cache.",
+      "PublicDescription": "Counts the number of misses to KeyLocker cache.",
+      "Counter": "0,1,2,3,4,5",
+      "PEBScounters": "0,1,2,3,4,5",
+      "SampleAfterValue": "1000003",
+      "MSRIndex": "0x00",
+      "MSRValue": "0x00",
+      "Precise": "0",
+      "CollectPEBSRecord": "2",
+      "TakenAlone": "0",
+      "CounterMask": "0",
+      "Invert": "0",
+      "EdgeDetect": "0",
+      "Data_LA": "0",
+      "L1_Hit_Indication": "0",
+      "Errata": "null",
+      "Offcore": "0",
+      "Deprecated": "0",
+      "PDISTCounter": "NA",
+      "Speculative": "1"
     },
     {
       "EventCode": "0xe4",
@@ -4489,7 +4639,7 @@
       "BriefDescription": "Counts the number of LBR entries recorded. Requires LBRs to be enabled in IA32_LBR_CTL. [This event is alias to LBR_INSERTS.ANY]",
       "PublicDescription": "Counts the number of LBR entries recorded. Requires LBRs to be enabled in IA32_LBR_CTL. This event is PDIR on GP0 and NPEBS on all other GPs [This event is alias to LBR_INSERTS.ANY]",
       "Counter": "0,1,2,3,4,5",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1,2,3,4,5",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x00",
       "MSRValue": "0x00",
@@ -4504,7 +4654,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "0",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
@@ -4514,7 +4664,7 @@
       "BriefDescription": "This event is deprecated. [This event is alias to MISC_RETIRED.LBR_INSERTS]",
       "PublicDescription": "This event is deprecated. [This event is alias to MISC_RETIRED.LBR_INSERTS]",
       "Counter": "0,1,2,3,4,5",
-      "PEBScounters": "0",
+      "PEBScounters": "0,1,2,3,4,5",
       "SampleAfterValue": "1000003",
       "MSRIndex": "0x00",
       "MSRValue": "0x00",
@@ -4529,7 +4679,7 @@
       "Errata": "null",
       "Offcore": "0",
       "Deprecated": "1",
-      "PDISTCounter": "0",
+      "PDISTCounter": "NA",
       "Speculative": "0"
     },
     {
